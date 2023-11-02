@@ -4,5 +4,6 @@ node_modules
 .macos
 coverage
 dist
+.env
 
 !.gitkeep
