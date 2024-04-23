@@ -2,12 +2,12 @@
     "name": "bridgelingo",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
         "test": "jest",
         "lint": "eslint . --ignore-path .gitignore --ext .ts",
         "dev": "nodemon ./src/main.ts --exec \"npm run lint && ts-node\"",
-        "start": "node build/server.js",
+        "start": "node dist/src/main.js",
         "test:watch": "jest --watch",
         "build": "tsc"
     },
