@@ -18,3 +18,12 @@ export interface IMsgResponse {
   date: number
   text: string | number
 }
+
+export type TranslateToEnum =
+    'en_to_zh' | // EnglishToChinese
+    'en_to_ru' | // EnglishToRussian
+    'ru_to_en' | // RussianToEnglish
+    'ru_to_zh' | // RussianToChinese
+    'zh_to_en' | // ChineseToEnglish
+    'zh_to_ru' // ChineseToRussian
+

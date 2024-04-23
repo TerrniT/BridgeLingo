@@ -4,9 +4,7 @@
     "node": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -21,10 +19,7 @@
         "skipBlankLines": false
       }
     ],
-    "semi": [
-      2,
-      "never"
-    ],
+    "semi": [2, "never"],
     "space-before-function-paren": [
       "error",
       {
@@ -69,14 +64,8 @@
         "max": 1
       }
     ],
-    "array-bracket-spacing": [
-      "error",
-      "never"
-    ],
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
+    "array-bracket-spacing": ["error", "never"],
+    "object-curly-spacing": ["error", "always"],
     // "object-curly-newline": [
     //   "error",
     //   {
@@ -112,14 +101,8 @@
     "space-before-blocks": "error",
     "no-spaced-func": "error",
     "implicit-arrow-linebreak": "error",
-    "quote-props": [
-      "error",
-      "as-needed"
-    ],
-    "computed-property-spacing": [
-      "error",
-      "never"
-    ],
+    "quote-props": ["error", "as-needed"],
+    "computed-property-spacing": ["error", "never"],
     "comma-spacing": [
       "error",
       {
@@ -142,10 +125,7 @@
       }
     ],
     "prefer-object-spread": "error",
-    "space-in-parens": [
-      "error",
-      "never"
-    ],
+    "space-in-parens": ["error", "never"],
     "arrow-spacing": [
       "error",
       {
@@ -154,25 +134,13 @@
       }
     ],
     "dot-notation": "error",
-    "indent": [
-      "error",
-      2
-    ],
+    "indent": ["error", 2],
     "no-tabs": 0,
     "space-unary-ops": "error",
-    "padded-blocks": [
-      "error",
-      "never"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
+    "padded-blocks": ["error", "never"],
+    "quotes": ["error", "single"],
     "prefer-rest-params": "off",
-    "comma-dangle": [
-      "error",
-      "never"
-    ],
+    "comma-dangle": ["error", "never"],
     "newline-per-chained-call": [
       "error",
       {
